@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#f8fafc;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+.btn-primary{
+  background:#2563eb;
+  border:none;
+  padding:12px 25px;
+  border-radius:10px;
+}
+
+.btn-primary:hover{
+  background:#1d4ed8;
+}

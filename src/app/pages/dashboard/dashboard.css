@@ -1,0 +1,17 @@
+.dash-card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 10px 20px rgba(0,0,0,0.08);
+  transition:.3s;
+}
+
+.dash-card:hover{
+  transform:translateY(-10px);
+}
+
+.dash-card h3{
+  font-size:40px;
+  color:#2563eb;
+}

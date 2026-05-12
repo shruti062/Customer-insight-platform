@@ -1,0 +1,33 @@
+.hero{
+  height: 100vh;
+
+  background:
+  linear-gradient(rgba(15,23,42,.7),
+  rgba(15,23,42,.7)),
+  url('../../../assets/banner.jpeg');
+
+  background-size: cover;
+  background-position: center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.overlay{
+  width:100%;
+}
+
+.hero h1{
+  color:white;
+  font-size:60px;
+  font-weight:700;
+}
+
+.hero p{
+  color:#e2e8f0;
+  font-size:20px;
+  max-width:700px;
+  margin:auto;
+  padding-top:20px;
+}
